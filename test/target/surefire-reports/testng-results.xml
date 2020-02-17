@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="986" started-at="2020-02-15T02:33:27 PST" finished-at="2020-02-15T02:33:28 PST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="986" started-at="2020-02-15T02:33:27 PST" finished-at="2020-02-15T02:33:28 PST">
+      <class name="com.test.test.TestNGTodo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.test.TestNGTodo@21213b92]" name="setUp" is-config="true" duration-ms="962" started-at="2020-02-15T02:33:27 PST" finished-at="2020-02-15T02:33:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:com.test.test.TestNGTodo@21213b92]" name="testSimple" duration-ms="1" started-at="2020-02-15T02:33:28 PST" finished-at="2020-02-15T02:33:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.test.TestNGTodo@21213b92]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-02-15T02:33:28 PST" finished-at="2020-02-15T02:33:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.test.TestNGTodo -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+import com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview;
+
+...
+
+CucumberResultsOverview results = new CucumberResultsOverview();
+results.setOutputDirectory("target");
+results.setOutputName("cucumber-results");
+results.setSourceFile("src/test/java/Resources/Cucumber.json");
+results.execute();
